@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .language-selector {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .question-container {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .question-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question-section h2 {
+    margin-top: 0;
+    text-align: center;
+    background-color: #eb6734;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .question-section button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #eb6734;
+    border: none;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    color: #fff;
+    border-radius: 5px;
+  }
+  
+  .question-section p {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 50px;
+    position: relative;
+    padding-bottom: 20px;
+  }
+  
+  .question-section p:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: -10px;
+    height: 15px;
+    background-image: linear-gradient(to right, #FF3C80, #FF882E, #FFD700, #4CAF50, #3777FF, #7A39FF);
+    border-radius: 5px;
+  }
+  
+  .registro-dias {
+    background-color: #e45d28;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  .registro-dias h2 {
+    margin-top: 0;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .registro-dias p {
+    font-size: 20px;
+  }
+  
+  .registro-columns {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .registro-column {
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .registro-column li {
+    background-color: #ffe8a1;
+    margin-bottom: 10px;
+    padding: 10px;
+    text-align: center;
+    width: 50%;
+    border-radius: 5px;
+  }
+  
+  .question-section p.total-month,
+  .question-section p.total-year {
+    font-size: 25px;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+    position: relative;
+    padding-bottom: 0;
+  }
+  
+  .question-section p.total-month:after,
+  .question-section p.total-year:after {
+    content: "";
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: -10px;
+    height: 15px;
+    background-image: none;
+    border-radius: 0;
+  }
+  
